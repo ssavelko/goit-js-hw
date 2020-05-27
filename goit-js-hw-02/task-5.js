@@ -1,5 +1,5 @@
 const checkForSpam = function(message) {
-    return message.toLowerCase().includes('spam'.toLowerCase()) || message.toLowerCase().includes('sale'.toLowerCase());
+    return message.toLowerCase().includes('spam') || message.toLowerCase().includes('sale');
   };
   
   /*
